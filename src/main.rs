@@ -3,6 +3,7 @@ use std::env;
 use file_loader::read_html_file;
 use parser::Parser;
 
+mod css;
 mod dom;
 mod parser;
 mod file_loader;
